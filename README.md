@@ -31,7 +31,7 @@ There are two subchannels:
 - _platform_: Announces data images for Open Targets Platform data backends
 - _ppp_: Announces data images for Open Targets Platform (Partner Preview)
 
-The announcements are made in the form of a JSON file, which is stored in the respective subchannel folder, the name of the file is *channel_content.json*.
+The announcements are made in the form of a JSON file, which is stored in the respective subchannel folder, the name of the file is *channel_content.jsonl*.
 
 # Copyright
 Copyright 2014-2024 EMBL - European Bioinformatics Institute, Genentech, GSK, MSD, Pfizer, Sanofi and Wellcome Sanger Institute
