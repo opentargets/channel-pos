@@ -14,11 +14,12 @@ This channel announces data images produced by POS for Open Targets Platform dat
   "id": "string",                       // Event ID, it uniquely identifies the event
   "producer": "string",                 // Producer of the event, this is the name of the service that produced the event
   "version": "string",                  // Version of the event producer
-  "payload_id": "string",               // Uniquely identifies the payload data model ID (TODO)
+  "payload_id": "string",               // Uniquely identifies the payload data model (TODO)
   "timestamp": "string",                // Timestamp of the event creation in ISO 8601 format
   "payload": {
     "data_image": {
       "id": "string",                   // Data Image ID, it uniquely identifies the data image
+      "target": "string",               // Data Image target type (e.g. clickhouse, opensearch)
       "project": "string",              // GCP project where the data image is stored
       "self_Url": "string",             // GCP resource self URL of the data image
       "name": "string",                 // Data image name
